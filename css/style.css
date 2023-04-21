@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+body {
+	font-family: 'Kumbh Sans', sans-serif;
+	font-weight: 400;
+	background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+	height: 100vh;
+	font-size: 12px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	line-height: 1.5;
+}
+.main2 {
+	position: relative;
+}
+
+.main {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: white;
+	/* max-width: 60%; */
+	width: 900px;
+	height: 400px;
+	position: relative;
+	padding: 2rem 2rem 2rem 0rem;
+	border-radius: 1rem;
+	overflow: hidden;
+	background-color: #f0f0f0;
+	box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* --------------------------------------------------------- */
+.hero-art {
+	overflow: hidden;
+}
+
+.girl {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	left: -85px;
+}
+
+.box {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	top: 185px;
+	left: -130px;
+	z-index: 1;
+}
+
+.shadow img {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	top: -300px;
+	left: -600px;
+}
+/* ------------------------------------------------------ */
+
+.faq-section {
+	max-width: 50%;
+	margin: 1rem;
+	padding: 1rem;
+}
+
+.question-img {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+h1 {
+	font-size: 2em;
+	font-weight: 700;
+	color: hsl(238, 29%, 16%);
+	margin-bottom: 3rem;
+}
+
+.question {
+	margin: 1rem 0rem;
+}
+
+h2 {
+	font-size: 1rem;
+	color: hsl(237, 12%, 33%);
+}
+
+h2:hover {
+	color: hsl(14, 88%, 65%);
+	cursor: pointer;
+}
+
+.desc {
+	overflow: hidden;
+	max-height: 0;
+	transition: max-height 0.5s ease;
+}
+
+/* description shows */
+.show {
+	max-height: 3rem;
+}
+.showing {
+	font-weight: 700;
+}
+
+p {
+	color: hsl(240, 6%, 50%);
+}
+
+hr {
+	color: hsl(240, 6%, 50%);
+}
+
+footer {
+	position: fixed;
+	left: 35%;
+	bottom: 0;
+	width: 100%;
+	/* Add other CSS properties for background color, padding, text alignment, etc. */
+}
